@@ -14,3 +14,13 @@
 
 #### Instruction (Read before use)
 - After cloning this repository, download the video from this [link](https://drive.google.com/drive/folders/1S0gBIz9Q__JwVAMM_2Oq278sWKz0EPnA?usp=sharing) and place it in the Media folder of this repo.
+
+#### Contact us (For any clarification and suggestion) 
+1. **Dr. T V Smitha**
+     - **Email:** 
+     - **Mobile:** 
+    
+2. **Shubham Luharuka**
+     - **Email:**  <shubhaml_cs19.rvitm@rvei.edu.in>
+     - **Mobile:** +919608757928
+
