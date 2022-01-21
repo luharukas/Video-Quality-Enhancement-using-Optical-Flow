@@ -17,8 +17,8 @@
 
 #### Contact us (For any clarification and suggestion) 
 1. **Dr. T V Smitha**
-     - **Email:** 
-     - **Mobile:** 
+     - **Email:** <smithatv.rvitm@rvei.edu.in>
+     - **Mobile:** +919611107480
     
 2. **Shubham Luharuka**
      - **Email:**  <shubhaml_cs19.rvitm@rvei.edu.in>
