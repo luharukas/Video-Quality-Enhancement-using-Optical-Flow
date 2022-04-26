@@ -2,7 +2,7 @@ If(PostProcessing.NbViews == 0)
   // Merge the image (this will create a new post-processing view, View[0]), and
   // modify the normalized pixel values (v0) to make them reasonnable
   // characteristic lengths for the mesh
-  Merge "cg.jpg";
+  Merge "frame0.jpg";
   //Plugin(ModifyComponents).Expression0 = "v0 * 10";
   Plugin(ModifyComponents).Expression0 = "1 + v0^2 * 10";
   Plugin(ModifyComponents).Run;
@@ -46,4 +46,27 @@ Mesh.ColorCarousel = 0;
 Mesh.Color.Triangles = Black;
 Mesh.Color.Quadrangles = Black;
 Mesh.RecombineAll = (algo == 8);
-Solver.AutoMesh = 2; // always remesh
+Solver.AutoMesh = 2; // always remesh//+
+Show "*";
+//+
+Show "*";
+//+
+Show "*";
+//+
+Show "*";
+//+
+Show "*";
+//+
+Show "*";
+//+
+Show "*";
+//+
+Show "*";
+//+
+Show "*";
+//+
+Show "*";
+//+
+Show "*";
+//+
+Show "*";
