@@ -55,6 +55,7 @@ if __name__ == "__main__":
     mask = np.zeros_like(first_frame)
 
     # while video not finish it will run
+    i=0
     while(video.isOpened()):
         # read the frame one by one
         f,frame=video.read()
@@ -81,7 +82,7 @@ if __name__ == "__main__":
                 c, d = old.ravel()
 
                 # Draws line between new and old position with green color and 2 thickness
-                mask = cv.line(mask, (int(a), int(b)), (int(c),int(d)),(0,0,255), 2)
+                #mask = cv.line(mask, (int(a), int(b)), (int(c),int(d)),(0,0,255), 1)
 
                 # Draws filled circle (thickness of -1) at new position with green color and radius of 3
                 frame = cv.circle(frame, (int(a),int(b)), 3, (0,255,0), -1)
@@ -97,6 +98,8 @@ if __name__ == "__main__":
 
             # Opens a new window and displays the output frame
             cv.imshow("sparse optical flow", output)
+            cv.imwrite("out_{}.jpg".format(i),output)
+            i+=1
 
             # Frames are read by intervals of 10 milliseconds and terminates when 'q' is pressed
             if cv.waitKey(10) & 0xFF == ord('q'):
