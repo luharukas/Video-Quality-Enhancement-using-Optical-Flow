@@ -55,7 +55,7 @@ if __name__ == "__main__":
     mask = np.zeros_like(first_frame)
 
     # while video not finish it will run
-    i=0
+    
     while(video.isOpened()):
         # read the frame one by one
         f,frame=video.read()
@@ -98,9 +98,7 @@ if __name__ == "__main__":
 
             # Opens a new window and displays the output frame
             cv.imshow("sparse optical flow", output)
-            cv.imwrite("out_{}.jpg".format(i),output)
-            i+=1
-
+            
             # Frames are read by intervals of 10 milliseconds and terminates when 'q' is pressed
             if cv.waitKey(10) & 0xFF == ord('q'):
                 break
