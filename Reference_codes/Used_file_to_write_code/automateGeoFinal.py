@@ -1,8 +1,7 @@
 import cv2
 import gmsh
 import datetime
-import json
-from Main.nodeCordinates import getCoordinates
+from nodeCordinates import getCoordinates
 
 
 # Read files
